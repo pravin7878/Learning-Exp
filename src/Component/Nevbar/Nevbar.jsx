@@ -1,5 +1,6 @@
 import { Box, Flex, Image, Link, Text } from '@chakra-ui/react'
 import React from 'react'
+import Logo from '../../assets/logo.png'
 
 export default function Nevbar() {
     const buttonStyling = {
@@ -27,7 +28,7 @@ export default function Nevbar() {
                 m={5}
                 align={'center'}>
 
-                <Image w={'10%'} src={'../public/Image/logo.png'} />
+                <Image w={'10%'} src={Logo} />
 
                 <Text fontWeight={600} fontSize={24}>Learning Exp</Text>
             </Flex>

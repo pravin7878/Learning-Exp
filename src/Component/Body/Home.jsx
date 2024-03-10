@@ -48,12 +48,7 @@ export default function Home() {
             >
                 <Nevbar />
 
-                {/* <Flex 
-                w={"90%"} 
-                m={'auto'} 
-                justify={'space-around'} 
-                mt={30} 
-                p={15}> */}
+              
                 <SimpleGrid columns={{ base: 1, md: 2 }} spacing={{ base: 50, md: 30 }} w={{ base: '70%', md: "90%" }}
                     m={'auto'} mt={50}>
 
@@ -111,7 +106,7 @@ export default function Home() {
                         </Box>
                     </Box>
                 </SimpleGrid>
-                {/* </Flex> */}
+                
 
             </Box>
         </Box>
