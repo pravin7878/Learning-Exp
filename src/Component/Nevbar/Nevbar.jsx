@@ -1,6 +1,7 @@
-import { Box, Flex, Image, Link, Text } from '@chakra-ui/react'
+import { Box, Flex, Image, Text } from '@chakra-ui/react'
 import React from 'react'
 import Logo from '../../assets/logo.png'
+import { Link } from 'react-router-dom'
 
 export default function Nevbar() {
     const buttonStyling = {
@@ -39,11 +40,11 @@ export default function Nevbar() {
                 justify={'space-around'}
                 display={{base:'none',md:'flex'}}
             >
-                <Link {...buttonStyling}>Home</Link>
-                <Link {...buttonStyling}>Services Us</Link>
-                <Link {...buttonStyling}>Why Us</Link>
-                <Link {...buttonStyling}>Our Goals</Link>
-                <Link {...buttonStyling}
+                <Link  to={'/'} {...buttonStyling}>Home</Link>
+                <Link to={'/services'} {...buttonStyling}>Services Us</Link>
+                <Link to={'/whyus'} {...buttonStyling}>Why Us</Link>
+                <Link to={'/goals'} {...buttonStyling}>Our Goals</Link>
+                <Link to={'contect'} {...buttonStyling}
                     bg={'yellow'} borderRadius={12} color={'black'} p={2} pr={4} pl={4} fontSize={18} fontWeight={900}
                 >Contact Us</Link>
             </Flex>

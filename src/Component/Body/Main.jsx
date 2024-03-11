@@ -4,6 +4,8 @@ import Home from './Home'
 import Services from './Services'
 import AboutUs from './AboutUs'
 import Ourcourse from './Ourcourse'
+import Fidbackpage from './Fidbackpage'
+import Footer from '../Footer/Footer'
 
 
 export default function Main() {
@@ -11,8 +13,10 @@ export default function Main() {
    <Box>
     <Home/>
     <Services/>
-    <AboutUs/>
+    <AboutUs />
     <Ourcourse/>
+    <Fidbackpage/>
+    <Footer/>
    </Box>
   )
 }

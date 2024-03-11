@@ -36,6 +36,7 @@ export default function Home() {
     return (
         <Box
             {...Homepagestyle}
+            id='Home'
         >
             <Box
                 bgColor={'blue'}

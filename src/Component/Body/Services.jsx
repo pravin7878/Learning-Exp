@@ -20,7 +20,15 @@ export default function Services() {
     }
 
     return (
-        <Box textAlign={'center'} mt={30} w={'90%'} m={'auto'} pt={30}>
+        <Box 
+        textAlign={'center'} 
+        mt={30} 
+        w={'90%'} 
+        m={'auto'} 
+        pt={30}
+        id='Services'
+        >
+           
             <Box w={{base:'80%',md:'40%'}} m={'auto'}>
                 <Heading fontSize={26}>We provide various kind of learning modules for you</Heading>
                 <Text>It Is A Long Established Fact That A Reader Will Be Distracted By The Readable Content Of A Page When Looking At Its Layout. The Point Of Using Lorem.</Text>
