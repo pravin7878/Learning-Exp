@@ -46,7 +46,7 @@ export default function Home() {
                 bgColor={'blue'}
                 h={{ base: '900px', md: '600px' }}
                 w={'100%'}
-                opacity={0.6}
+                opacity={1}
                 
                 borderBottomRightRadius={{base:20, md:200}}
                 borderBottomLeftRadius={{base:100, md:300}}
