@@ -1,5 +1,5 @@
 import { Box, Flex, Heading, Text, Button, Link, SimpleGrid } from '@chakra-ui/react'
-import React, { useEffect, useRef, useState } from 'react'
+import React, { useEffect , useState } from 'react'
 import Nevbar from '../Nevbar/Nevbar'
 
 // for video playing
@@ -13,6 +13,8 @@ import { ArrowForwardIcon } from '@chakra-ui/icons'
 
 export default function Home() {
     const [playStatus, setplayStatus] = useState(false)
+
+   
 
     const Homepagestyle = {
         bgImage: bgImage,
@@ -33,6 +35,8 @@ export default function Home() {
         borderRadius: ' 8',
         fontSize: '20px',
     }
+
+   
     return (
         <Box
             {...Homepagestyle}
@@ -42,10 +46,13 @@ export default function Home() {
                 bgColor={'blue'}
                 h={{ base: '900px', md: '600px' }}
                 w={'100%'}
-                opacity={0.5}
+                opacity={0.6}
                 
                 borderBottomRightRadius={{base:20, md:200}}
                 borderBottomLeftRadius={{base:100, md:300}}
+                position={'relative'}
+                pt={70}
+
             >
                 <Nevbar />
 

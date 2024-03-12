@@ -67,7 +67,7 @@ boxShadow:'dark-lg',
                             playing={playStatus}
                             width="100%"
                             height="auto"
-                            loop="true"
+                            loop='true'
                         />
                     </Box>
 
