@@ -4,6 +4,7 @@ import Nevbar from '../Nevbar/Nevbar'
 
 // for video playing
 import ReactPlayer from 'react-player';
+import { PauseCircleFilled, PlayCircleFilled } from '@ant-design/icons'
 
 // import assets
 import bgImage from '../../assets/women.png'
@@ -30,8 +31,9 @@ export default function Home() {
 
     const videoButton = {
         position: 'absolute',
-        top: '250px',
-        right: '350px',
+        top: {base:'500px',md:'250px'},
+        right: ['150','350','250','350'],
+
         borderRadius: ' 8',
         fontSize: '20px',
     }
@@ -109,7 +111,7 @@ export default function Home() {
 
                         <Box {...videoButton}>
                             <button onClick={() => setplayStatus(!playStatus)}>
-                                {playStatus ? 'Pause' : 'Play'}
+                                {playStatus ? <PauseCircleFilled/> : <PlayCircleFilled/>}
                             </button>
                         </Box>
                     </Box>

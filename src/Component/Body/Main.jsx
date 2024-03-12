@@ -11,19 +11,19 @@ import Footer from '../Footer/Footer'
 export default function Main() {
   return (
    <Box>
-    <Box id='home'>
+    <Box id='home' >
     <Home/>
     </Box>
 
-    <Box id='services'>
+    <Box id='services' pt={70}>
     <Services/>
     </Box>
 
-    <Box id='about'>
+    <Box id='about' pt={70}>
     <AboutUs />
     </Box>
 
-    <Box id='goal'>
+    <Box id='goal' pt={70}>
     <Ourcourse/>
     </Box>
 
